@@ -15,7 +15,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-	path: docker
+	path: ./docker
         repository: bekdev24/myapp
         tag_with_ref: true
         tag_with_sha: true
